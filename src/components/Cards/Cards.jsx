@@ -23,11 +23,11 @@ const Cards = ({ addScore }) => {
     }
 
     function nextButton() {
+        addScore();
         completed.push(random);
         if (completed.length === data.length) {
             return;
         }
-        addScore();
         let a = Math.round(Math.random() * ((data.length - 1) - 0));
         while (completed.includes(a)) {
             a = Math.round(Math.random() * ((data.length - 1) - 0));

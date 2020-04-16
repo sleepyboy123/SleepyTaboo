@@ -59,7 +59,10 @@ class App extends React.Component {
                 {(this.state.status) ?
                 <Typography variant="h4" className={styles.title} onClick={this.startTimer}>Start</Typography> 
                 :
-                <Typography variant="h4" className={styles.title}>{this.state.seconds}</Typography>
+                <div>
+                    <div className={styles.floatbox}><Typography variant="h4" className={styles.float}>{this.state.seconds}</Typography></div>
+                    <div className={styles.floatbox}><Typography variant="h4" className={styles.float}>{this.state.score}</Typography></div>
+                </div>
                 }
                 </div>
                 <Cards addScore={this.addScore} />

@@ -7,3 +7,13 @@
 .title {
     text-align: center;
 }
+
+.floatbox {
+    display: inline-block;
+    width: 50%;
+}
+
+.float {
+    text-align: center;
+}
+
