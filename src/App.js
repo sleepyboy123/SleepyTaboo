@@ -56,7 +56,7 @@ class App extends React.Component {
             <div>
                 <Typography variant="h3" className={styles.title}>SleepyTaboo</Typography>
                 <div className={styles.titleBox}>
-                {(this.state.status) ?
+                {(this.state.status === true) ?
                 <Typography variant="h4" className={styles.title} onClick={this.startTimer}>Start</Typography> 
                 :
                 <div>
