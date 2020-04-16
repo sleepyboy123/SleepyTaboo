@@ -5,7 +5,7 @@ import styles from './Cards.module.css';
 
 let completed = [];
 
-const Cards = () => {
+const Cards = ({ addScore }) => {
 
     let data = require('../../data.json');
     let i = Math.round(Math.random() * ((data.length - 1) - 0));
@@ -27,6 +27,7 @@ const Cards = () => {
         if (completed.length === data.length) {
             return;
         }
+        addScore();
         let a = Math.round(Math.random() * ((data.length - 1) - 0));
         while (completed.includes(a)) {
             a = Math.round(Math.random() * ((data.length - 1) - 0));

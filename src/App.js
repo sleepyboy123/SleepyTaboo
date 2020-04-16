@@ -10,11 +10,13 @@ class App extends React.Component {
         super();
         this.state = {
             seconds: 60,
-            status: true
+            status: true,
+            score: 0
         };
         this.timer = 0;
         this.startTimer = this.startTimer.bind(this);
         this.countDown = this.countDown.bind(this);
+        this.addScore = this.addScore.bind(this);
       }
 
     countDown() {
@@ -36,10 +38,17 @@ class App extends React.Component {
     startTimer() {
         if (this.timer === 0 && this.state.seconds > 0) {
             this.setState({
-                status: false
+                status: false,
+                score: 0
             })
             this.timer = setInterval(this.countDown, 1000);
         }
+    }
+
+    addScore() {
+        this.setState({
+            score: this.state.score + 1
+        })
     }
 
     render() {
@@ -53,7 +62,7 @@ class App extends React.Component {
                 <Typography variant="h4" className={styles.title}>{this.state.seconds}</Typography>
                 }
                 </div>
-                <Cards />
+                <Cards addScore={this.addScore} />
             </div>
         )
     }
