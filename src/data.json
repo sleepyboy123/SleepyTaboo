@@ -1,0 +1,13 @@
+[
+    {
+        "keyWord": "Whistle",
+        "badWord": ["Noise", "Blow", "Refree", "Lips", "Sound"]
+    }, {
+        "keyWord": "Napkin",
+        "badWord": ["Wipe", "Mouth", "Clean", "Stack", "Spill"]
+    }, {
+        "keyWord": "Bee",
+        "badWord": ["Honey", "Insect", "Hive", "Sting", "Bumble"]
+    }
+
+]

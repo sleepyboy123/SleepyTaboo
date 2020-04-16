@@ -1,0 +1,24 @@
+.container {
+    margin-top: 1%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.keyWord {
+    text-align: center;
+}
+
+.badWord {
+    text-align: center;
+}
+
+.buttonContainer {
+    float: left;
+    width: 50%;
+    padding-bottom: 1%;
+}
+
+.button {
+    margin-left: calc(50% - 24px);
+}
