@@ -8,6 +8,146 @@
     }, {
         "keyWord": "Bee",
         "badWord": ["Honey", "Insect", "Hive", "Sting", "Bumble"]
+    }, {
+        "keyWord": "Pizza Hut",
+        "badWord": ["Food", "Restaurant", "Breadsticks", "Pepper", "Roof"]
+    }, {
+        "keyWord": "Ice Cream",
+        "badWord": ["Freezer", "Vanilla", "Chocolate", "Flavors", "Cold"]
+    }, {
+        "keyWord": "Ice Cream",
+        "badWord": ["Freezer", "Vanilla", "Chocolate", "Flavors", "Cold"]
+    }, {
+        "keyWord": "Alphabet",
+        "badWord": ["Letters", "26", "Vowels", "Spell", "Song"]
+    }, {
+        "keyWord": "Mushroom",
+        "badWord": ["Ground", "Eat", "Vegetable", "Portabella", "Smurfs"]
+    }, {
+        "keyWord": "Mushroom",
+        "badWord": ["Ground", "Eat", "Vegetable", "Portabella", "Smurfs"]
+    }, {
+        "keyWord": "Knee",
+        "badWord": ["Body", "Walk", "Joint", "Elbow", "Legs"]
+    }, {
+        "keyWord": "Private",
+        "badWord": ["Public", "Advertise", "Keep", "Tight", "Silent"]
+    }, {
+        "keyWord": "Mickey Mouse",
+        "badWord": ["Orlando", "Donald Duck", "Disney", "Character", "Magic"]
+    }, {
+        "keyWord": "Meet Up",
+        "badWord": ["Together", "Plan", "Event", "Call", "Phone"]
+    }, {
+        "keyWord": "X-MEN",
+        "badWord": ["Marvel", "Superheroes", "Wolverine", "Mutant", "Cartoons"]
+    }, {
+        "keyWord": "Screwdriver",
+        "badWord": ["Screw", "Wall", "Hang", "Tool", "Twist"]
+    }, {
+        "keyWord": "Alcohol",
+        "badWord": ["Liquor", "Beer", "Drink", "Inebriated", "Liquid"]
+    }, {
+        "keyWord": "Slippers",
+        "badWord": ["Sandals", "Shoes", "Feet", "Sand", "Wear"]
+    }, {
+        "keyWord": "Fog",
+        "badWord": ["Clouds", "Sight", "Vision", "War", "Block"]
+    }, {
+        "keyWord": "Fog",
+        "badWord": ["Clouds", "Sight", "Vision", "War", "Block"]
+    }, {
+        "keyWord": "Best Man",
+        "badWord": ["Wedding", "Marriage", "Maid Honour", "Speech", "Groomsmen"]
+    }, {
+        "keyWord": "Laughter",
+        "badWord": ["Funny", "Joke", "Riddle", "Mouth", "Tells"]
+    }, {
+        "keyWord": "Laughter",
+        "badWord": ["Funny", "Joke", "Riddle", "Mouth", "Tells"]
+    }, {
+        "keyWord": "Penalty",
+        "badWord": ["Illegal", "Punishment", "Offense", "Wrong", "Law"]
+    }, {
+        "keyWord": "Penalty",
+        "badWord": ["Illegal", "Punishment", "Offense", "Wrong", "Law"]
+    }, {
+        "keyWord": "Marbles",
+        "badWord": ["Balls", "Small", "Roll", "Strike", "Game"]
+    }, {
+        "keyWord": "Sound",
+        "badWord": ["Music", "Voice", "Hear", "Speech", "Ear"]
+    }, {
+        "keyWord": "Lane",
+        "badWord": ["Shoulder", "Cars", "Pass", "Drive", "Turn"]
+    }, {
+        "keyWord": "Badge",
+        "badWord": ["Cops", "Law", "Rules", "Ticket", "Police"]
+    }, {
+        "keyWord": "Cough",
+        "badWord": ["Mouth", "Sick", "Ill", "Throat", "Sneeze"]
+    }, {
+        "keyWord": "Connection",
+        "badWord": ["Internet", "Spark", "Chemistry", "Together", "Time"]
+    }, {
+        "keyWord": "Fragile",
+        "badWord": ["Break", "Drop", "Glass", "Mail", "Smash"]
+    }, {
+        "keyWord": "Pencil",
+        "badWord": ["Eraser", "Pen", "Yellow", "Write", "Paper"]
+    }, {
+        "keyWord": "License",
+        "badWord": ["Drivers", "Document", "Legal", "Paper", "Official"]
+    }, {
+        "keyWord": "Sister",
+        "badWord": ["Brother", "Mother", "Father", "Sibling", "Parent"]
+    }, {
+        "keyWord": "Salt",
+        "badWord": ["Pepper", "Shaker", "Seasoning", "Restaurant", "White"]
+    }, {
+        "keyWord": "Week",
+        "badWord": ["Seven", "Days", "Month", "Calendar", "Year"]
+    }, {
+        "keyWord": "Review",
+        "badWord": ["Analyze", "Look", "Critique", "Check", "Manager"]
+    }, {
+        "keyWord": "Watermelon",
+        "badWord": ["Seeds", "Juice", "Green", "Pink", "Fruit"]
+    }, {
+        "keyWord": "Gift Card",
+        "badWord": ["Purchase", "Wallet", "Best Buy", "Supermarket", "Christmas"]
+    }, {
+        "keyWord": "Father",
+        "badWord": ["Grandparent", "Mother", "Dad", "Children", "Parent"]
+    }, {
+        "keyWord": "Complete",
+        "badWord": ["Finish", "Over", "Done", "Pass", "End"]
+    }, {
+        "keyWord": "Circus",
+        "badWord": ["Ring", "Tent", "Clown", "Trapeze", "Ringling"]
+    }, {
+        "keyWord": "Rabbit",
+        "badWord": ["Long Ears", "Hop", "Bunny", "Animal", "Bugs Bunny"]
+    }, {
+        "keyWord": "Magnet",
+        "badWord": ["Metal", "Conduct", "Electric", "Stick", "Together"]
+    }, {
+        "keyWord": "Stapler",
+        "badWord": ["Clip", "Paper", "Together", "Bind", "Refill"]
+    }, {
+        "keyWord": "Barbecue",
+        "badWord": ["Grill", "Outdoor", "Backyard", "Weber", "Meat"]
+    }, {
+        "keyWord": "Network",
+        "badWord": ["Computer", "Jobs", "People", "Internet", "Connection"]
+    }, {
+        "keyWord": "Afro",
+        "badWord": ["Hair", "Lot", "Pik", "Curls", "Perm"]
+    }, {
+        "keyWord": "Government",
+        "badWord": ["Country", "Politicians", "President", "Congress", "Rule"]
     }
+
+
 
 ]

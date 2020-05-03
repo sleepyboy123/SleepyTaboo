@@ -54,14 +54,14 @@ class App extends React.Component {
     render() {
         return (
             <div>
-                <Typography variant="h3" className={styles.title}>SleepyTaboo</Typography>
+                <Typography variant="h3" className={styles.title} style={{fontFamily: 'Bebas Neue', fontSize: 70, paddingTop: 30, paddingBottom: 10}}>SleepyTaboo</Typography>
                 <div className={styles.titleBox}>
                 {(this.state.status === true) ?
-                <Typography variant="h4" className={styles.title} onClick={this.startTimer}>Start</Typography> 
+                <Typography variant="h4" className={styles.title} onClick={this.startTimer} style={{fontFamily: 'Bebas Neue', paddingBottom: 5}}>Start</Typography> 
                 :
                 <div>
-                    <div className={styles.floatbox}><Typography variant="h4" className={styles.float}>{this.state.seconds}</Typography></div>
-                    <div className={styles.floatbox}><Typography variant="h4" className={styles.float}>{this.state.score}</Typography></div>
+                    <div className={styles.floatbox}><Typography variant="h4" style={{fontFamily: 'Bebas Neue'}} className={styles.float}>{this.state.seconds}</Typography></div>
+                    <div className={styles.floatbox}><Typography variant="h4" style={{fontFamily: 'Bebas Neue'}} className={styles.float}>{this.state.score}</Typography></div>
                 </div>
                 }
                 </div>
