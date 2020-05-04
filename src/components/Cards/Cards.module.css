@@ -1,5 +1,5 @@
 .container {
-    background-color: #33d6ff !important;
+    background-color: rgb(244, 210, 208) !important;
     border-radius: 25px !important;
     margin-top: 1%;
     margin-left: auto;
@@ -26,6 +26,7 @@
 
 .button {
     margin-left: calc(50% - 24px);
+    cursor: pointer;
 }
 
 @media only screen and (max-width: 600px) {

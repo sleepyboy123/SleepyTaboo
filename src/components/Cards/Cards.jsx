@@ -37,10 +37,10 @@ const Cards = ({ addScore }) => {
 
     return (
         <Card className={styles.container}>
-            <Typography variant="h4" style={{fontFamily: 'Merriweather', fontSize: 40}} className={styles.keyWord}>
+            <Typography variant="h4" style={{fontFamily: 'Heebo', fontWeight: 700, fontSize: 40}} className={styles.keyWord}>
                 {data[random].keyWord}
             </Typography>
-            {data[random].badWord.map((word) => <Typography variant="h5" style={{fontFamily: 'Merriweather', fontSize: 25}} className={styles.badWord}>{word}</Typography>)}
+            {data[random].badWord.map((word) => <Typography variant="h5" style={{fontFamily: 'Heebo', fontWeight: 400, fontSize: 25}} className={styles.badWord}>{word}</Typography>)}
             <div className={styles.buttonContainer}>
                 <img className={styles.button} src="https://img.icons8.com/flat_round/48/000000/delete-sign.png" alt="cross" onClick={() => skipButton()}/>
             </div>

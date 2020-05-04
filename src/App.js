@@ -57,7 +57,7 @@ class App extends React.Component {
                 <Typography variant="h3" className={styles.title} style={{fontFamily: 'Bebas Neue', fontSize: 70, paddingTop: 30, paddingBottom: 10}}>SleepyTaboo</Typography>
                 <div className={styles.titleBox}>
                 {(this.state.status === true) ?
-                <Typography variant="h4" className={styles.title} onClick={this.startTimer} style={{fontFamily: 'Bebas Neue', paddingBottom: 5}}>Start</Typography> 
+                <Typography variant="h4" className={styles.title} onClick={this.startTimer} style={{fontFamily: 'Bebas Neue', fontSize: 45, paddingBottom: 5, cursor: 'pointer'}}>Start</Typography> 
                 :
                 <div>
                     <div className={styles.floatbox}><Typography variant="h4" style={{fontFamily: 'Bebas Neue'}} className={styles.float}>{this.state.seconds}</Typography></div>
