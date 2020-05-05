@@ -5,14 +5,14 @@ import styles from './Cards.module.css';
 
 let completed = [];
 
-const Cards = ({ addScore }) => {
+const Cards = ({ addScore, gameStatus }) => {
 
     let data = require('../../data.json');
     let i = Math.round(Math.random() * ((data.length - 1) - 0));
     const [random, setRandom] = useState(i);
 
     function skipButton() {
-        if (completed.length === data.length) {
+        if (completed.length === data.length || gameStatus === false) {
             return;
         }
         let a = Math.round(Math.random() * ((data.length - 1) - 0));
@@ -25,7 +25,7 @@ const Cards = ({ addScore }) => {
     function nextButton() {
         addScore();
         completed.push(random);
-        if (completed.length === data.length) {
+        if (completed.length === data.length || gameStatus === false) {
             return;
         }
         let a = Math.round(Math.random() * ((data.length - 1) - 0));
@@ -42,10 +42,10 @@ const Cards = ({ addScore }) => {
             </Typography>
             {data[random].badWord.map((word) => <Typography variant="h5" style={{fontFamily: 'Heebo', fontWeight: 400, fontSize: 25}} className={styles.badWord}>{word}</Typography>)}
             <div className={styles.buttonContainer}>
-                <img className={styles.button} src="https://img.icons8.com/flat_round/48/000000/delete-sign.png" alt="cross" onClick={() => skipButton()}/>
+                <img onClick={() => skipButton(gameStatus)} className={styles.button} src="https://img.icons8.com/flat_round/48/000000/delete-sign.png" alt="cross" />
             </div>
             <div className={styles.buttonContainer}>
-                <img className={styles.button} src="https://img.icons8.com/officel/48/000000/checked.png" alt="tick" onClick={() => nextButton()}/>
+                <img onClick={() => nextButton(gameStatus)} className={styles.button} src="https://img.icons8.com/officel/48/000000/checked.png" alt="tick" />
             </div>
         </Card>
     )

@@ -65,7 +65,7 @@ class App extends React.Component {
                 </div>
                 }
                 </div>
-                <Cards addScore={this.addScore} />
+                <Cards gameStatus={!this.state.status} addScore={this.addScore} />
             </div>
         )
     }
